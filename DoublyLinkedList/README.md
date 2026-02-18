@@ -46,8 +46,12 @@ The goal is to understand pointer manipulation, dynamic memory management, and b
 | IsEmpty                  | O(1)            |
 
 
-
-
+## 🛡 Edge Cases Handled
+- Inserting into an empty list
+- Deleting the only node in the list
+- Updating invalid index (throws exception)
+- Accessing first/last item in empty list (throws exception)
+- Safe pointer relinking during deletion
 
 
 ## 🧠 Concepts Used
