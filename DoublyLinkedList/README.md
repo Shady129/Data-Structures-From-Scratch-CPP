@@ -27,6 +27,29 @@ The goal is to understand pointer manipulation, dynamic memory management, and b
 
 ---
 
+## ⏱ Time Complexity (Big O Analysis)
+
+| Operation               | Time Complexity |
+|--------------------------|-----------------|
+| Insert at beginning      | O(1)            |
+| Insert at end            | O(n)            |
+| Insert after node        | O(1)            |
+| Insert after index       | O(n)            |
+| Delete first             | O(1)            |
+| Delete last              | O(n)            |
+| Delete by value          | O(n)            |
+| Find                     | O(n)            |
+| Get by index             | O(n)            |
+| Update by index          | O(n)            |
+| Reverse                  | O(n)            |
+| Size                     | O(1)            |
+| IsEmpty                  | O(1)            |
+
+
+
+
+
+
 ## 🧠 Concepts Used
 
 - Templates
