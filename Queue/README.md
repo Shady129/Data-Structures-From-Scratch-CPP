@@ -1,46 +1,59 @@
+# Queue Data Structure – From Scratch (C++)
 
-# Queue – C++ Implementation
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+════════════════════════════════════════════════════
 
 📌 Overview
 
 This project implements a generic Queue data structure 
-from scratch using C++ templates.
+from scratch using modern C++ templates.
 
-The Queue is built on top of a custom Doubly Linked List.
+The Queue follows the FIFO principle:
 
-Main concept:
-FIFO → First In, First Out
+First In → First Out
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+It is built on top of a custom Doubly Linked List 
+to demonstrate composition and abstraction.
 
-⚙️ Features
+════════════════════════════════════════════════════
 
-• Push      → Insert at end
-• Pop       → Remove from front
-• Front     → Get first element
-• Back      → Get last element
-• Size
-• IsEmpty
-• Print
+🎯 Objectives
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Understand FIFO behavior internally
+• Practice template-based generic design
+• Apply composition (Queue built using Linked List)
+• Strengthen pointer manipulation knowledge
+• Write clean and reusable data structures
 
-🧠 Internal Design
+════════════════════════════════════════════════════
 
-The Queue internally uses:
+⚙️ Supported Operations
+
+Push(T item)        → Insert element at end
+Pop()               → Remove element from front
+Front()             → Get first element
+Back()              → Get last element
+Size()              → Return number of elements
+IsEmpty()           → Check if queue is empty
+Print()             → Display elements
+
+════════════════════════════════════════════════════
+
+🧠 Internal Architecture
+
+Queue is implemented using:
 
 clsDblLinkedList<T>
 
-Push  → InsertAtEnd()
-Pop   → DeleteFirstNode()
+Mapping:
 
-This ensures FIFO behavior.
+Push()  → InsertAtEnd()
+Pop()   → DeleteFirstNode()
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+This guarantees FIFO ordering.
 
-⏱ Time Complexity (Big O)
+════════════════════════════════════════════════════
+
+⏱ Time Complexity (Big O Analysis)
 
 Push      → O(1)
 Pop       → O(1)
@@ -49,9 +62,9 @@ Back      → O(n)*
 Size      → O(1)
 IsEmpty   → O(1)
 
-*Back depends on index-based access.
+*Back uses index-based access.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+════════════════════════════════════════════════════
 
 📂 Project Structure
 
@@ -61,7 +74,7 @@ Queue
 ├── main.cpp
 └── README.md
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+════════════════════════════════════════════════════
 
 ▶ Example Usage
 
@@ -71,17 +84,38 @@ q.Push(10);
 q.Push(20);
 q.Push(30);
 
-q.Print();     // 10 20 30
+q.Print();       // 10 20 30
 q.Pop();
-q.Print();     // 20 30
+q.Print();       // 20 30
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+════════════════════════════════════════════════════
 
-🎯 Learning Outcome
+🔍 Design Highlights
 
-• Understand FIFO principle
-• Implement Queue using Linked List
-• Practice abstraction & composition
-• Build reusable template-based structures
+✔ Generic Template Implementation
+✔ Clean Abstraction Layer
+✔ Separation of Concerns
+✔ Reusable & Extensible Design
+✔ Built Without STL Containers
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+════════════════════════════════════════════════════
+
+🚀 Learning Outcome
+
+After completing this implementation, you fully understand:
+
+• How Queue works internally
+• How FIFO is enforced
+• How to build abstraction over another structure
+• How to design scalable data structures
+• How to think like a systems-level developer
+
+════════════════════════════════════════════════════
+
+👤 Author
+
+Shady Mahmoud  
+Data Structures & Backend Development Enthusiast  
+GitHub: https://github.com/Shady129
+
+════════════════════════════════════════════════════
