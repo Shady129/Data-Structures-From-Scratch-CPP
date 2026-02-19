@@ -49,7 +49,7 @@ Pop()   → DeleteFirstNode()
 
 This guarantees FIFO ordering.
 
-════════════════════════════════════════════════════
+---
 
 ⏱ Time Complexity (Big O Analysis)
 
@@ -62,7 +62,7 @@ IsEmpty   → O(1)
 
 *Back uses index-based access.
 
-════════════════════════════════════════════════════
+---
 
 📂 Project Structure
 
@@ -72,7 +72,7 @@ Queue
 ├── main.cpp
 └── README.md
 
-════════════════════════════════════════════════════
+---
 
 ▶ Example Usage
 
@@ -86,7 +86,7 @@ q.Print();       // 10 20 30
 q.Pop();
 q.Print();       // 20 30
 
-════════════════════════════════════════════════════
+---
 
 🔍 Design Highlights
 
@@ -96,7 +96,7 @@ q.Print();       // 20 30
 ✔ Reusable & Extensible Design
 ✔ Built Without STL Containers
 
-════════════════════════════════════════════════════
+---
 
 🚀 Learning Outcome
 
@@ -108,12 +108,10 @@ After completing this implementation, you fully understand:
 • How to design scalable data structures
 • How to think like a systems-level developer
 
-════════════════════════════════════════════════════
+---
 
 👤 Author
 
 Shady Mahmoud  
 Data Structures & Backend Development Enthusiast  
 GitHub: https://github.com/Shady129
-
-════════════════════════════════════════════════════
