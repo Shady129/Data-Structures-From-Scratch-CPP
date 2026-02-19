@@ -16,23 +16,23 @@ to demonstrate composition and abstraction.
 
 🎯 Objectives
 
-• Understand FIFO behavior internally
-• Practice template-based generic design
-• Apply composition (Queue built using Linked List)
-• Strengthen pointer manipulation knowledge
-• Write clean and reusable data structures
+• Understand FIFO behavior internally  
+• Practice template-based generic design  
+• Apply composition (Queue built using Linked List)  
+• Strengthen pointer manipulation knowledge  
+• Write clean and reusable data structures  
 
 ---
 
 ⚙️ Supported Operations
 
-Push(T item)        → Insert element at end
-Pop()               → Remove element from front
-Front()             → Get first element
-Back()              → Get last element
-Size()              → Return number of elements
-IsEmpty()           → Check if queue is empty
-Print()             → Display elements
+Push(T item)        → Insert element at end  
+Pop()               → Remove element from front  
+Front()             → Get first element  
+Back()              → Get last element  
+Size()              → Return number of elements  
+IsEmpty()           → Check if queue is empty  
+Print()             → Display elements  
 
 ---
 
@@ -44,8 +44,8 @@ clsDblLinkedList<T>
 
 Mapping:
 
-Push()  → InsertAtEnd()
-Pop()   → DeleteFirstNode()
+Push()  → InsertAtEnd()  
+Pop()   → DeleteFirstNode()  
 
 This guarantees FIFO ordering.
 
@@ -53,12 +53,12 @@ This guarantees FIFO ordering.
 
 ⏱ Time Complexity (Big O Analysis)
 
-Push      → O(1)
-Pop       → O(1)
-Front     → O(1)
-Back      → O(n)*
-Size      → O(1)
-IsEmpty   → O(1)
+Push      → O(1)  
+Pop       → O(1)  
+Front     → O(1)  
+Back      → O(n)*  
+Size      → O(1)  
+IsEmpty   → O(1)  
 
 *Back uses index-based access.
 
@@ -66,35 +66,35 @@ IsEmpty   → O(1)
 
 📂 Project Structure
 
-Queue
-│
-├── clsMyQueue.h
-├── main.cpp
-└── README.md
+Queue  
+│  
+├── clsMyQueue.h  
+├── main.cpp  
+└── README.md  
 
 ---
 
 ▶ Example Usage
 
-clsMyQueue<int> q;
+clsMyQueue<int> myList;
 
-q.Push(10);
-q.Push(20);
-q.Push(30);
+myList.Push(10);  
+myList.Push(20);  
+myList.Push(30);  
 
-q.Print();       // 10 20 30
-q.Pop();
-q.Print();       // 20 30
+myList.Print();       // 10 20 30  
+myList.Pop();  
+myList.Print();       // 20 30  
 
 ---
 
 🔍 Design Highlights
 
-✔ Generic Template Implementation
-✔ Clean Abstraction Layer
-✔ Separation of Concerns
-✔ Reusable & Extensible Design
-✔ Built Without STL Containers
+✔ Generic Template Implementation  
+✔ Clean Abstraction Layer  
+✔ Separation of Concerns  
+✔ Reusable & Extensible Design  
+✔ Built Without STL Containers  
 
 ---
 
@@ -102,11 +102,11 @@ q.Print();       // 20 30
 
 After completing this implementation, you fully understand:
 
-• How Queue works internally
-• How FIFO is enforced
-• How to build abstraction over another structure
-• How to design scalable data structures
-• How to think like a systems-level developer
+• How Queue works internally  
+• How FIFO is enforced  
+• How to build abstraction over another structure  
+• How to design scalable data structures  
+• How to think like a systems-level developer  
 
 ---
 
