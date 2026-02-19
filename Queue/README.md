@@ -1,7 +1,5 @@
 # Queue Data Structure – From Scratch (C++)
 
-════════════════════════════════════════════════════
-
 📌 Overview
 
 This project implements a generic Queue data structure 
