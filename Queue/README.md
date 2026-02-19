@@ -12,7 +12,7 @@ First In → First Out
 It is built on top of a custom Doubly Linked List 
 to demonstrate composition and abstraction.
 
-════════════════════════════════════════════════════
+---
 
 🎯 Objectives
 
@@ -22,7 +22,7 @@ to demonstrate composition and abstraction.
 • Strengthen pointer manipulation knowledge
 • Write clean and reusable data structures
 
-════════════════════════════════════════════════════
+---
 
 ⚙️ Supported Operations
 
@@ -34,7 +34,7 @@ Size()              → Return number of elements
 IsEmpty()           → Check if queue is empty
 Print()             → Display elements
 
-════════════════════════════════════════════════════
+---
 
 🧠 Internal Architecture
 
