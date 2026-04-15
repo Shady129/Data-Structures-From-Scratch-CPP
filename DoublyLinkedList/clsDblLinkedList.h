@@ -209,8 +209,8 @@ public:
             current->prev = current->next;
             current->next = temp;
 
-            newHead = current;       // دايمًا خزن آخر نود عدينا عليها
-            current = current->prev; // كمل مشي
+            newHead = current;       
+            current = current->prev; 
         }
         head = newHead;
     }
